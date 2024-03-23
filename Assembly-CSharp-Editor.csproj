@@ -1159,20 +1159,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Meta.Movement.Editor">
-      <HintPath>Library/ScriptAssemblies/Meta.Movement.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Oculus.VR.Editor">
       <HintPath>Library/ScriptAssemblies/Oculus.VR.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meta.WitAi">
       <HintPath>Library/ScriptAssemblies/Meta.WitAi.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.Voice.VSDKHub.Editor">
-      <HintPath>Library/ScriptAssemblies/Meta.Voice.VSDKHub.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
@@ -1183,16 +1175,24 @@
       <HintPath>Library/ScriptAssemblies/Meta.WitAi.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Animation.Rigging">
-      <HintPath>Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
+    <Reference Include="Meta.Voice.VSDKHub.Editor">
+      <HintPath>Library/ScriptAssemblies/Meta.Voice.VSDKHub.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Oculus.Haptics">
       <HintPath>Library/ScriptAssemblies/Oculus.Haptics.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Meta.Movement.Editor">
+      <HintPath>Library/ScriptAssemblies/Meta.Movement.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Meta.XR.Audio.Editor">
       <HintPath>Library/ScriptAssemblies/Meta.XR.Audio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VoiceSDK.Editor">
@@ -1406,6 +1406,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj" />
+    <ProjectReference Include="KinoBloom.Runtime.csproj" />
+    <ProjectReference Include="CFXRDemo.csproj" />
+    <ProjectReference Include="CFXRRuntime.csproj" />
+    <ProjectReference Include="CFXR.WelcomeScreen.csproj" />
+    <ProjectReference Include="CFXREditor.csproj" />
+    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
